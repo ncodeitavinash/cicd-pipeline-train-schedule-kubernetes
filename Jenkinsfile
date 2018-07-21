@@ -50,8 +50,7 @@ pipeline {
                     configs: 'train-schedule-kube.yml',
                     enableConfigSubstitution: true
                 )
-                
-                //implement Kubernetes deployment here
+               //implement Kubernetes deployment here
             }
         }
     }
